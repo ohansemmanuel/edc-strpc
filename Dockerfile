@@ -13,7 +13,7 @@ RUN	apt update &&\
     cd edc-strpc &&\
     git checkout master &&\
     cd 01-c-ui &&\
-    npm install &&\
+    npm install
     #
     #cd .. &&\
     #cd 02... &&\
