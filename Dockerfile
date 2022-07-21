@@ -16,5 +16,5 @@ RUN	apt update &&\
     npm install &&\
     #
     #cd .. &&\
-    #cd 02 &&\
+    #cd 02... &&\
     #npm install 
