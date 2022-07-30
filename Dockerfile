@@ -18,4 +18,8 @@ RUN	apt update &&\
     #
     cd 02-m-ui &&\
     npm install &&\
+    cd .. &&\
+    #
+    cd 03-p-example &&\
+    npm install &&\
     cd ..
