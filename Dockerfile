@@ -22,4 +22,12 @@ RUN	apt update &&\
     #
     cd 03-p-example &&\
     npm install &&\
+    cd .. &&\
+    #
+    cd 04-p-example-partial &&\
+    npm install &&\
+    cd .. &&\
+    #
+    cd 05-border-exercise &&\
+    npm install &&\
     cd ..
